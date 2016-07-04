@@ -53,11 +53,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing
 
-# Camera
-PRODUCT_PACKAGES += \
-    libmm-qcamera \
-    camera.msm8916
-
 # Art
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.dex2oat_thread_count=4 \
