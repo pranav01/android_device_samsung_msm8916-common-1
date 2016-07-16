@@ -19,6 +19,8 @@
 # Kernel Source
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8916
 
+TARGET_WANTS_SILENT_PAGE_RECORDS := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
