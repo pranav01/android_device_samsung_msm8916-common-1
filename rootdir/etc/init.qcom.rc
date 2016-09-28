@@ -742,9 +742,9 @@ service qcamerasvr /system/bin/mm-qcamera-daemon
     user camera
     group camera system inet input graphics
  
-service charger /charger
+service charger /sbin/healthd -c
     class charger
-    group log
+    critical
     seclabel u:r:healthd:s0
 
 service ssr_setup /system/bin/ssr_setup
